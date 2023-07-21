@@ -500,11 +500,11 @@ section.winRateArea.summariseArea {
   justify-content: center !important;
 }
 .summariseArea .boxBody {
-  width: 90% !important;
+  width: 71% !important;
   height: auto !important;
   padding: 40px 30px 100px;
   border-radius: 20px !important;
-  margin-left: 50px !important;
+  margin-left: 139px !important;
 }
 
 .summariseArea .iconListArea ul li {
