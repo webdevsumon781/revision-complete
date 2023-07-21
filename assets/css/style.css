@@ -1,0 +1,695 @@
+@font-face {
+  font-family: NeueThinItalic;
+  src: url(../fonts/NeueHaasDisplayThinItalic.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: NeueBoldItalic;
+  src: url(../fonts/NeueHaasDisplayBoldItalic.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: NeueSemiBold;
+  src: url(../fonts/NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+  font-family: NeueNormal;
+  src: url(../fonts/NeueHaasDisplayRoman.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: NeueItalic;
+  src: url(../fonts/NeueHaasDisplayRomanItalic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: NeueBlack;
+  src: url(../fonts/NeueHaasDisplayBlack.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: NeueBold;
+  src: url(../fonts/NeueHaasDisplayBold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: BookManOldStyle;
+  src: url(../fonts/BOOKOSB.TTF);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: BrittanySignatureRegular;
+  src: url(../fonts/BrittanySignature.ttf);
+}
+
+/* global css start */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #f1f2f2 !important;
+  position: relative;
+}
+
+.bgTop {
+  width: 100%;
+  z-index: 0 !important;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.bgTop img {
+  width: 100%;
+  margin: auto;
+}
+
+.bgBottom {
+  width: 100%;
+  z-index: 0 !important;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -100px;
+}
+
+.bgBottom img {
+  width: 100%;
+  margin: auto;
+}
+
+main {
+  z-index: 1 !important;
+  position: relative;
+}
+
+.cardBody {
+  width: 1140px;
+  background: #fff !important;
+  margin: auto;
+  box-shadow: 5px 5px 5px #e9e9e9;
+  padding: 50px 0px;
+  z-index: 100;
+}
+
+.cardBodyFirst {
+  border-radius: 20px 20px 0px 0px !important;
+}
+
+.contentArea {
+  margin: 20px auto;
+  padding-left: 109px;
+  padding-right: 109px;
+}
+
+.contentArea p {
+  font-size: 24px !important;
+  line-height: 1.5em !important;
+  letter-spacing: 1px !important;
+}
+
+h1 {
+  font-family: BookManOldStyle;
+  font-size: 42pt;
+}
+
+p {
+  font-size: 24px !important;
+  font-family: NeueNormal;
+  line-height: 1.5em !important;
+  color: #414042;
+}
+
+.bold {
+  font-family: NeueBlack;
+  font-weight: 800 !important;
+  color: #414042 !important;
+}
+
+.boldNormal {
+  font-family: NeueSemiBold;
+  color: #414042 !important;
+}
+
+.italicLight {
+  font-family: NeueThinItalic !important;
+  font-weight: 100 !important;
+  color: #414042 !important;
+}
+
+.italicNormal {
+  font-family: NeueItalic !important;
+  color: #414042 !important;
+  font-weight: 400 !important;
+}
+
+.italicBold {
+  font-family: NeueBoldItalic !important;
+  color: #414042 !important;
+}
+
+/* global css close */
+
+/* body start */
+.logoArea {
+  text-align: center;
+}
+
+.logoArea img {
+  width: 493px !important;
+  height: 145px;
+  margin: 100px auto;
+}
+
+.BannerTitle {
+  font-style: normal;
+  text-align: center;
+  margin: 50px 81px;
+  font-size: 34pt;
+  line-height: 44pt;
+  color: #414042;
+}
+
+.BannerTitle span {
+  color: #009444;
+}
+
+.bannerArea .subtitle {
+  font-size: 28pt;
+  font-family: NeueNormal;
+  text-align: center;
+  font-weight: 600;
+  margin: 70px 0px 80px 0px;
+  color: #414042;
+}
+
+.bannerArea .subtitle span {
+  color: #009444;
+}
+
+/* image area start */
+.innerImageBox {
+  max-width: 11in !important;
+  height: 3.9in;
+  background-color: #f1f2f2;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.innerImageSection .col-md-6 img {
+  width: 530px !important;
+  margin-left: -68px;
+}
+
+/* win rate box area start */
+.winRateArea {
+  max-width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 40px 20px 80px;
+  box-shadow: 5px 5px 5px #e9e9e9;
+}
+
+.innerBox {
+  margin: -10px;
+}
+
+.winRateArea .imageBox {
+  width: 368px !important;
+  border-radius: 0px !important;
+  margin-bottom: 5px !important;
+  box-shadow: none !important;
+}
+
+.winRateArea .boxTitle {
+  height: 170px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+}
+
+.winRateArea .boxTitle p {
+  text-align: center !important;
+  font-weight: 700 !important;
+  font-family: NeueBold !important;
+}
+
+.winRateArea .boxBody {
+  height: 220px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+}
+
+.winRateArea .boxBody p {
+  text-align: center !important;
+  font-size: 24px !important;
+  padding: 20px 20px !important;
+}
+
+/* winrate area box area close */
+
+.innerBox .row,
+.innerBox .row {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 0;
+}
+
+.imageBox {
+  background: #f1f2f2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 365px !important;
+}
+
+.boxTitle p {
+  font-size: 20pt !important;
+  color: #009444;
+  display: block;
+  line-height: 23pt !important;
+  padding: 37px 0px 14px;
+  font-weight: 600;
+}
+
+.boxBody {
+  height: 207px;
+  padding: 15px 30px;
+  margin: 7px 0px 0px 0px !important;
+}
+
+.boxBody p {
+  font-size: 24px !important;
+  position: relative;
+  padding: 0px 45px;
+  color: #414042;
+  line-height: 25pt !important;
+}
+
+.boxOne {
+  pad: 35px 20px;
+}
+
+.boxTwo {
+  padding: 35px 50px;
+}
+
+/* box close */
+
+
+
+/* shapeBgOne start */
+.shapeBg {
+  padding: 40px 0px;
+}
+
+.shapeBg {
+  background: #442f27;
+}
+
+.innerShape {
+  max-width: 1140px !important;
+  margin-left: 196px;
+  padding-right: 120px !important;
+}
+
+.innerShape h1 {
+  color: #fff;
+  line-height: 41pt;
+  font-size: 32pt !important;
+}
+
+/* shapeBgOne Close */
+
+/* content area start */
+ul {
+  margin: 40px 0px !important;
+}
+.bMemberList li {
+  font-size: 24px;
+  line-height: 1.7em !important;
+  margin: 50px 0px !important;
+  font-family: NeueNormal !important;
+  color: #414042;
+}
+ul li {
+  font-size: 24px;
+  line-height: 34px !important;
+  margin: 10px 0px !important;
+  font-family: NeueBold;
+  color: #414042;
+}
+
+::marker {
+  font-size: 32px;
+}
+
+.contentArea h1 {
+  width: 868px;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 28pt !important;
+  line-height: 38pt;
+  color: #414042;
+}
+
+.contentArea p span {
+  color: #009444;
+  font-weight: 600;
+  font-family: NeueBold;
+}
+
+.contentArea p.shortP {
+  width: 275px;
+  text-align: right;
+  font-size: 24pt !important;
+  color: #414042;
+  font-family: NeueBold;
+  margin: 40px 0px;
+}
+
+.innerCard.innerText {
+  margin-top: 6px;
+}
+
+.innerImageSection {
+  margin: 50px auto;
+  max-width: 1100px !important;
+}
+
+.innerImageSection p {
+  font-size: 24pt !important;
+  line-height: 40pt !important;
+  font-weight: 600;
+  margin-top: 35px;
+  font-family: NeueBold;
+  width: 339px;
+}
+
+/* owner image */
+.innerImage img {
+  width: 6.24in;
+}
+
+p.weekText {
+  margin-top: 300px;
+}
+
+
+.firstBody {
+  margin-top: -120px;
+}
+
+.pTextTwo {
+  margin-top: 50px !important;
+  margin-left: -10px;
+}
+.stepBox{
+  padding: 0px 30px !important;
+  margin-left: -10px !important;
+}
+
+.stepBox .imageBox {
+  width: 544px !important;
+  height: 280px !important;
+  box-shadow: 5px 5px 6px #cbcbcb;
+  margin-bottom: 5px !important;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: start !important;
+  flex-direction: column;
+  text-align: left;
+}
+
+.innerShape h1 {
+  color: #fff;
+  line-height: 34pt;
+  font-size: 24pt !important;
+}
+
+.boxBody {
+  padding: 5px 82px;
+  margin: 2px 0px 0px 0px !important;
+}
+
+.stepBox .boxBody p {
+  font-size: 24px !important;
+  position: relative;
+  padding: 0px 0px;
+  color: #414042;
+  text-align: left !important;
+  line-height: 1.5em !important;
+}
+
+.bettingList li,
+.scrapingList li {
+  font-size: 30px;
+  line-height: 40pt !important;
+  margin: 10px 0px !important;
+  font-family: NeueBold !important;
+  color: #414042;
+}
+
+ul li {
+  font-size: 24px;
+  line-height: 50pt !important;
+  margin: 50px 0px !important;
+  font-family: NeueNormal !important;
+  color: #414042;
+}
+
+.stepArea {
+  margin: -50px -20px 0px;
+  padding-top: 50px;
+}
+
+.stepArea ul li {
+  list-style: none;
+}
+
+.stepArea ul li img {
+  margin-right: 30px !important;
+  width: 23px;
+  margin-top: -5px;
+}
+
+section.winRateArea.summariseArea {
+  margin: 0px 120px;
+}
+
+.summariseArea {
+  width: 100% !important;
+  display: flex;
+  justify-content: center !important;
+}
+.summariseArea .boxBody {
+  width: 90% !important;
+  height: auto !important;
+  padding: 40px 30px 100px;
+  border-radius: 20px !important;
+  margin-left: 50px !important;
+}
+
+.summariseArea .iconListArea ul li {
+  font-size: 30px !important;
+  line-height: 25pt !important;
+  margin: 30px 0px !important;
+  font-family: NeueNormal !important;
+  color: #414042;
+  display: flex;
+  text-align: left;
+}
+
+.summariseArea .iconListArea ul li div {
+  margin-top: 0px;
+}
+
+.summariseArea .iconListArea {
+  width: 100%;
+}
+
+.btnArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+::marker {
+  font-size: 34px;
+  line-height: 15px !important;
+}
+
+.contentArea.footerText {
+  padding: 30px 0px 0px;
+}
+
+.pageTwoListArea {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.pageTwoListArea ul li {
+  font-size: 24px;
+  line-height: 1.7em !important;
+}
+
+.pHead {
+  margin-left: 189px !important;
+}
+
+.stepTitle {
+  margin: 70px 0px 20px;
+}
+
+.stepArea ul li .stepTitle span {
+  font-family: BookManOldStyle;
+  font-size: 30pt;
+  line-height: 40pt;
+}
+
+.greenNormal {
+  font-family: NeueNormal !important;
+  font-weight: 400 !important;
+}
+
+.greenBold {
+  font-family: NeueBold !important;
+}
+
+.redBold {
+  font-family: NeueBold !important;
+  color: #ed1c24 !important;
+}
+
+.contentArea h1 {
+  width: 909px;
+}
+
+.summariseArea li i {
+  background: #4bae4d;
+  height: 32px;
+  width: 32px;
+  border-radius: 50px;
+  padding: 7px;
+  font-size: 19px;
+  color: #fff !important;
+  margin-right: 40px;
+}
+
+.summariseArea .summariseBtn {
+  font-size: 24pt;
+  line-height: 50pt;
+  font-family: NeueSemiBold;
+  color: #fff !important;
+  background: #009444;
+  border-radius: 20px;
+  text-transform: uppercase;
+  width: 500px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summariseArea .summariseBtn:hover {
+  background: #fff;
+  color: #009444 !important;
+  border: 2px solid #009444;
+}
+
+.signature {
+  font-family: BrittanySignatureRegular !important;
+  color: #009444 !important;
+  font-size: 41pt !important;
+  line-height: 50pt !important;
+  font-weight: 200 !important;
+}
+
+.footerText p {
+  text-align: center !important;
+  font-weight: 400 !important;
+  font-family: NeueNormal !important;
+  color: #009444;
+  font-size: 24px !important;
+  padding: 0px 87px;
+  line-height: 1.5em !important;
+}
+
+
+/* footer start */
+footer {
+  margin: 100px auto 0px;
+}
+
+.footerBar {
+  background: linear-gradient(90deg, #442f27 40%, #f1f2f2 60%);
+  padding: 25px 0px 15px;
+  margin: 20px 0px;
+}
+
+.innerFooterBar .container {
+  width: 1140px;
+  display: flex;
+}
+
+.footerBar p {
+  color: #fff;
+  font-size: 34px !important;
+}
+
+.container.fBottomArea {
+  display: flex;
+  justify-content: center;
+}
+
+.footerBotom {
+  margin-top: 50px !important;
+  margin-bottom: -50px !important;
+  width: 1140px;
+}
+
+.iconListArea {
+  width: 540px;
+}
+
+.footerLeft ul li {
+  list-style: none;
+  font-size: 34px !important;
+  line-height: 46pt !important;
+  margin: 0px 0px 0px -30px !important;
+  font-family: NeueBold !important;
+}
+
+.footerLeft ul li i {
+  color: #442f27 !important;
+  margin: 0px 30px 0px 0px;
+}
+
+.innerFooterRight {
+  text-align: right;
+}
+
+.innerFooterRight img {
+  width: 90%;
+  margin-top: -30px;
+  margin-right: -50px;
+}
+
+/* ********************************************************************************************* page close */
